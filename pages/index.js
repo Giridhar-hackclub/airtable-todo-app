@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react'
 import Head from 'next/head'
-import { table, minifyRecords } from './utils/Airtable'
+import { table, minifyRecords } from '../utils/Airtable'
 import { TodosContext } from '../context/todos'
 import TodoForm from '../components/TodoForm'
 import Todo from '../components/Todo'
